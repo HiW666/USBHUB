@@ -1,0 +1,18 @@
+	OLED_ShowString(0, 0, "HiW@binging.top");
+	OLED_ShowString(0, 2, "Distance:");		//OLED屏输出字符串
+x轴
+y轴
+
+x轴每个字占用8位
+y轴占用2位
+
+ x/y0 8 16
+     2 冰 晶
+     4 冰 晶
+
+
+关于OLED_ShowNum
+	x：起始列					y：起始页
+					num：数字
+					len：数字的位数
+					size：显示数字的间隔
